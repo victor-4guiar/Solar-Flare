@@ -1,8 +1,9 @@
+var help = new Audio('carpetas/help.mp3');
+var tin = new Audio('carpetas/tin.mp3');
+
 function cambiar(){
 	setTimeout(()=>{
 		help.play();
-		var help = new Audio('carpetas/help.mp3');
-		var tin = new Audio('carpetas/tin.mp3');
 		var prinDiv = document.getElementById('divMain');
 		var prinIma = document.getElementById('imag');
 		var foo = document.getElementById('foo');
@@ -17,5 +18,5 @@ function cambiar(){
 			help.pause();
 			tin.play();
 		}, 9 * 1000);
-	}, 200);
+	}, 180);
 };
