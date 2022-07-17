@@ -1,7 +1,6 @@
-var help = new Audio('carpetas/help.mp3');
-var tin = new Audio('carpetas/tin.mp3');
-
 function cambiar(){
+	var help = new Audio('carpetas/help.mp3');
+	var tin = new Audio('carpetas/tin.mp3');
 	setTimeout(()=>{
 		help.play();
 		var prinDiv = document.getElementById('divMain');
