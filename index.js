@@ -17,5 +17,5 @@ function cambiar(){
 			help.pause();
 			tin.play();
 		}, 9 * 1000);
-	}, 180);
+	}, 200);
 };
