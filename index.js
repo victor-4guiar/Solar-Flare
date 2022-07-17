@@ -1,5 +1,6 @@
 function cambiar(){
 	setTimeout(()=>{
+		help.play();
 		var help = new Audio('carpetas/help.mp3');
 		var tin = new Audio('carpetas/tin.mp3');
 		var prinDiv = document.getElementById('divMain');
@@ -8,7 +9,6 @@ function cambiar(){
 		
 		prinIma.setAttribute('id', 'help');
 		prinIma.src = 'carpetas/john_lennon_0.jpg';
-		help.play();
 		setTimeout(()=>{
 			prinDiv.remove();
 			prinIma.remove();
@@ -16,5 +16,5 @@ function cambiar(){
 			foo.innerHTML += '<p>To <strong><a rel="external" target="_blank" href="https://youtu.be/2Q_ZzBGPdqE">Original Music</a></strong></p>';
 			tin.play();
 		}, 9 * 1000);
-	}, 150);
+	}, 180);
 };
