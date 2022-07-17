@@ -14,6 +14,7 @@ function cambiar(){
 			prinIma.remove();
 			document.body.style.backgroundColor = 'black';
 			foo.innerHTML += '<p>To <strong><a rel="external" target="_blank" href="https://youtu.be/2Q_ZzBGPdqE">Original Music</a></strong></p>';
+			help.pause();
 			tin.play();
 		}, 9 * 1000);
 	}, 180);
